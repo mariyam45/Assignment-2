@@ -1,0 +1,242 @@
+.container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px; */
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+.display{
+    width: 100%;
+    height: 446px;
+    background-color: rgb(13, 16, 22);
+    display: flex;
+    border-radius: 20px;
+    
+}
+.article{
+    color: white;
+    width: 50%;
+    text-align: start;
+    margin-left: 60px;
+    margin-top: 2px;
+
+}
+.article h1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 48px;
+    width: 430px;
+    margin-bottom: 10px;
+}
+.article p{
+    width: 430px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(177, 177, 177);
+}
+
+.messi{
+    width: 50%;
+}
+
+.messi img{
+    width: 750px;
+    margin-top: 35px;
+    margin-left: -300px;
+
+}
+
+button{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+     
+}
+span{
+    background: #009688;
+    width: 0;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+
+}
+button:hover span {
+    width: 100%;
+    
+    
+}
+button:hover {
+    border: none;
+    
+}
+/* ---------------- */
+
+/* <-- ---box & vertical button--- --> */
+.all-boxs{
+    margin-top: 30px;
+    width: 1021px;
+}
+/* ---vrt button part--- */
+.vrt-button{
+    background-color:  rgb(13, 16, 22);
+    width: 220px;
+    height: 200px;
+    justify-items: center;
+    display: grid;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.vrt-button button{
+    display: block;
+    margin-top: 17px;
+
+}
+.fixed-color{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    color: white;
+    background:  #009688;
+}
+/* ----------- */
+
+/* -------blog box------- */
+.all-boxs{
+    display: flex;
+    margin: 20px 5px 120px;
+}
+    
+ 
+ .match-boxs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+    grid-column-gap: 10px;
+} 
+.match{
+    
+    width: 310px;
+    height: 245px;
+    border: 1px solid rgba(195, 195, 195, 0.519);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: center;
+    /* display: flex; */
+    
+}
+.m-info{
+    width: 252px;
+    height: 136px;
+    margin: 50px 10px;
+    text-align: center;
+    justify-items: center;
+}
+
+.flag{
+   display: flex;
+   
+   width: 252px;
+   height: 55px;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-end;
+   margin-top:30px;
+
+}
+.img{
+    width: 92px;
+    height: 55px;
+    margin: 6px;
+    
+}
+
+p{
+    font-size: 12px;
+}
+.motch h4{
+    font-size: 24px;
+}
+
+
+/* ----footer---- */
+footer{
+    padding: 8px;
+    margin: 0;
+    background-color: rgb(13, 16, 22);
+    width: 100%;
+    height: 180px;
+    text-align: center;
+
+
+}
+#goal{
+    color: white;
+    font-family: 'Cinzel', serif;
+    
+}
+hr{
+    width: 800px;
+    color: rgba(108, 108, 108, 0.401);
+    opacity: 50%;
+    
+}
+ul{
+    padding-left: 4px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px ;
+}
+.social-icons{
+    text-align: center;
+    margin: 25px;
+    
+    
+}
+.social-icons a{
+    color: rgba(209, 209, 209, 0.848);
+    font-size: 18px;
+    padding: 15px;
+    
+
+}
