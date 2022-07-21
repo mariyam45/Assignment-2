@@ -10,6 +10,7 @@
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .display {
@@ -70,9 +71,7 @@ button:hover span {
 button:hover {
   border: none;
 }
-.horizental-buttons {
-  display: none;
-}
+
 /* ---------------- */
 
 /* <-- ---box & vertical button--- --> */
@@ -220,24 +219,14 @@ ul li a {
     justify-content: space-between;
     overflow: hidden;
   }
-  
-  
   .vrt-button {
-    display: none;
-  }
-  .horizental-buttons {
+    display: inline-flex;
+    width: auto;
+    height: auto;
     margin: 0 auto;
-    display: block;
+    background-color: rgb(13, 16, 22);
   }
-  .horizental-buttons button {
-    text-align: center;
-    margin: 10px;
-    color: black;
-  }
-  .horizental-buttons button:nth-child(3) {
-    color: white;
-    background-color: #009688;
-  }
+
   .messi {
     width: 100%;
     margin-bottom: -40px;
@@ -282,21 +271,12 @@ ul li a {
     overflow: hidden;
   }
   .vrt-button {
-    display: none;
-  }
-  .horizental-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    display: block;
-  }
-  .horizental-buttons button {
-    display: block;
-    text-align: center;
-    margin: 10px;
-    color: black;
-  }
-  .horizental-buttons button:nth-child(3) {
-    color: white;
-    background-color: #009688;
+    background-color: rgb(13, 16, 22);
   }
   .all-boxs {
     display: flex;
